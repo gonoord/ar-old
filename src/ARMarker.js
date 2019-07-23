@@ -13,9 +13,9 @@ class ARMarker extends HTMLElement {
         if(this.content) {
             this.contentProps = {
                 src: this.content,
-                scale: {x: 5, y: 5, z: 5},
+                scale: {x: 15, y: 15, z: 15},
                 position: {x: 0, y: 0, z: 0},
-                rotation: {x: 3, y: 0, z: 0}
+                rotation: {x: 90, y: 0, z: 0}
             }
         }else {
             // case where the content was specified as ar-content
@@ -86,9 +86,9 @@ class ARMarker extends HTMLElement {
         let split = str.split(" ")
         
         return {
-            x: split[0] || 1,
-            y: split[1] || 1,
-            z: split[2] || 1
+            x: split[0] || 10,
+            y: split[1] || 10,
+            z: split[2] || 10
         }
     }
 
