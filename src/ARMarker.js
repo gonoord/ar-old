@@ -13,7 +13,7 @@ class ARMarker extends HTMLElement {
         if(this.content) {
             this.contentProps = {
                 src: this.content,
-                scale: {x: 1, y: 1, z: 1},
+                scale: {x: 2, y: 2, z: 2},
                 position: {x: 0, y: 0, z: 0},
                 rotation: {x: 0, y: 0, z: 0}
             }
