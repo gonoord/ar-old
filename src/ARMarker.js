@@ -15,7 +15,7 @@ class ARMarker extends HTMLElement {
                 src: this.content,
                 scale: {x: 2, y: 2, z: 2},
                 position: {x: 0, y: 0, z: 0},
-                rotation: {x: 0, y: 0, z: 0}
+                rotation: {x: 1, y: 0, z: 0}
             }
         }else {
             // case where the content was specified as ar-content
