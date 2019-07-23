@@ -86,9 +86,9 @@ class ARMarker extends HTMLElement {
         let split = str.split(" ")
         
         return {
-            x: split[0] || 0,
-            y: split[1] || 0,
-            z: split[2] || 0
+            x: split[0] || 1,
+            y: split[1] || 1,
+            z: split[2] || 1
         }
     }
 
