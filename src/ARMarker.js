@@ -13,7 +13,7 @@ class ARMarker extends HTMLElement {
         if(this.content) {
             this.contentProps = {
                 src: this.content,
-                scale: {x: 15, y: 15, z: 15},
+                scale: {x: 1, y: 1, z: 1},
                 position: {x: 0, y: 0, z: 0},
                 rotation: {x: 90, y: 0, z: 0}
             }
@@ -86,9 +86,9 @@ class ARMarker extends HTMLElement {
         let split = str.split(" ")
         
         return {
-            x: split[0] || 10,
-            y: split[1] || 10,
-            z: split[2] || 10
+            x: split[0] || 0,
+            y: split[1] || 0,
+            z: split[2] || 0
         }
     }
 
