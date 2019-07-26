@@ -1,0 +1,23 @@
+<html>
+<head>
+    <!-- include ar.js for aframe -->
+    <script src="example/aframe-ar.js"></script>
+    <script src="example/vendor/artoolkit.min.js"></script>
+    <script src="example/vendor/three.min.js"></script>
+    <script src="example/vendor/artoolkit.three.js"></script>
+    <script src="example/ar-gif.min.js" defer></script>
+</head>
+<title>NOORD AR GIFS</title>
+<body style="overflow: hidden; margin:0;">
+    <ar-scene>
+        <ar-marker patt="example/patts/carrot.patt">
+            <ar-content src="example/gifs/carrot_small.gif" scale="9 9" position="0 0 0" rotation="0 0 0">
+            </ar-content>
+        </ar-marker>
+        <ar-marker patt="example/patts/pattern-m.patt">
+            <ar-content src="example/gifs/mouse.gif" scale="9 9" position="0 0 0" rotation="0 0 0">
+            </ar-content>
+        </ar-marker>
+    </ar-scene>
+</body>
+</html>
