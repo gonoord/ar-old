@@ -4,14 +4,15 @@
 
 <body style='margin : 0px; overflow: hidden;'>
   <a-scene embedded arjs='sourceType: webcam;'>
-      <a-marker preset='hiro'>
+      <a-marker preset='hiro'></a-marker>
+<!-- it is the same as the marker below -->
+<a-marker type='pattern' url='https://gonoord.github.io/ar/examples/patts/focus/pattern-focus.patt'></a-marker>
 
 <a-entity
 fbx-model="src: url(example/trump_walk.fbx);" >
 </a-entity>          
           
       </a-marker>
-  <a-entity camera>
   </a-entity>
   </a-scene>
 </body>
